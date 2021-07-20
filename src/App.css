@@ -1,1 +1,39 @@
-/* Other rules */
+body {
+  background-color: black;
+}
+
+.App {
+  margin: 30px 0 0 30px;
+}
+
+.App img {
+  width: 200px;
+  margin-bottom: 60px;
+}
+
+.Title {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.FilmsList {
+  display: flex;
+  overflow: scroll;
+  margin-bottom: 40px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.FilmsList::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.FilmsList {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.Film img {
+  width: 400px;
+}
